@@ -1,13 +1,17 @@
 {
   "name": "deps-version-report",
+  "description": "A tool to generate simple csv reports on currently using and latest available versions of npm packages",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "bin": {
-    "deps-version-report": "./index.js"
+    "deps-version-report": "bin/index.js"
   },
   "dependencies": {
-    "npm-registry-fetch": "^9.0.0"
+    "csv-stringify": "^5.5.1",
+    "npm-registry-fetch": "^9.0.0",
+    "ramda": "^0.27.1",
+    "yargs": "^16.1.0"
   },
   "devDependencies": {}
 }
