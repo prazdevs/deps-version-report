@@ -1,0 +1,13 @@
+{
+  "name": "deps-version-report",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "bin": {
+    "deps-version-report": "./index.js"
+  },
+  "dependencies": {
+    "npm-registry-fetch": "^9.0.0"
+  },
+  "devDependencies": {}
+}
